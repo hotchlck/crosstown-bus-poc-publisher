@@ -13,4 +13,12 @@
     he purpose of this setup is to ensure that messages published by the publisher can be received and processed by the subscriber, thereby facilitating efficient and effective communication between them.
 
 ## Running RabitMQ as message broker 
-<img src = "img/RabbitMQ.png"> <br>
+<img src = "img/RabbitMQ.png"> 
+
+## Sending and Processing Event
+<img src = "img/pub&sub.png">
+
+When we execute the ```cargo run``` command on the publisher and subscriber, the following process occurs: The publisher sends data to the message broker (RabbitMQ), which then forwards it to the subscriber. 
+The subscriber receives and processes this data according to the information received. This process can be seen from the provided console screenshot. 
+More specifically, when I execute the ```cargo run``` command on the subscriber and publisher, the publisher sends 5 events to the message broker.
+These events are then received and processed by the publisher. Thus, both images demonstrate the interaction process between the publisher, message broker, and subscriber in this system.
