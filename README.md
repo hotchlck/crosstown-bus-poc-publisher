@@ -11,3 +11,6 @@
    This server has a username ```guest``` and password ```guest```, and the hostname of the machine where the broker runs is localhost. 
     The AMQP broker keeps track of connections on port number ```5672```. If the URL on the publisher and subscriber is the same, it indicates that they are connected to the same server for message exchange. 
     he purpose of this setup is to ensure that messages published by the publisher can be received and processed by the subscriber, thereby facilitating efficient and effective communication between them.
+
+## Running RabitMQ as message broker 
+<img src = "img/RabbitMQ.png> <br>
