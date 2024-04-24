@@ -22,3 +22,8 @@ When we execute the ```cargo run``` command on the publisher and subscriber, the
 The subscriber receives and processes this data according to the information received. This process can be seen from the provided console screenshot. 
 More specifically, when I execute the ```cargo run``` command on the subscriber and publisher, the publisher sends 5 events to the message broker.
 These events are then received and processed by the publisher. Thus, both images demonstrate the interaction process between the publisher, message broker, and subscriber in this system.
+
+## Monitoring chart based on publisher
+<img src = "spikes.png">
+
+In the displayed graph visualization, there are two significant spikes in the ‘message rates last minute’ graph when I executed the ```cargo run``` command twice in the publisher directory. These spikes in the graph represent the number of messages received by the subscriber in the last minute. The intensity of these spikes is directly proportional to the number of messages: the more messages received, the higher the spike. 
