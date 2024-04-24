@@ -13,4 +13,4 @@
     he purpose of this setup is to ensure that messages published by the publisher can be received and processed by the subscriber, thereby facilitating efficient and effective communication between them.
 
 ## Running RabitMQ as message broker 
-<img src = "img/RabbitMQ.png> <br>
+<img src = "img/RabbitMQ.png"> <br>
